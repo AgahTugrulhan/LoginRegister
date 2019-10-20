@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/newbackground"
+    >
+
+    <EditText
+        android:id="@+id/editText_name_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icons_user"
+        android:background="#ffffff"
+        android:hint="@string/name" />
+    <EditText
+        android:id="@+id/editText_surname_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icons_user"
+        android:background="#ffffff"
+        android:hint="@string/surname" />
+    <EditText
+        android:id="@+id/editText_username_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icons_user"
+        android:background="#ffffff"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/editText_pw_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/icons_password"
+        android:hint="@string/password" />
+    <EditText
+        android:id="@+id/editText_email_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="@string/email"
+        />
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="@string/register"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
